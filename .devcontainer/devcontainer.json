@@ -44,6 +44,7 @@
 	"remoteUser": "node",
 	"features": {
 		"docker-in-docker": "latest",
+		"sshd": "latest",
 		"github-cli": "latest"
 	},
 	"overrideCommand": false,
