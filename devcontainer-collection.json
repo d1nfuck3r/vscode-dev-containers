@@ -5,29 +5,7 @@
 		"ref": "",
 		"sha": "",
 		"tag": ""
-	},
-	"definitions": [
-		{
-			"id": "alpine",
-			"displayName": "Alpine",
-			"description": "Simple Alpine container with Git installed.",
-			"categories": ["Core", "Other"],
-			"platforms": ["Any"],
-			"type": "singleContainer",
-			"options": {
-				"VARIANT": {
-					"type": "string",
-					"proposals": ["3.14", "3.13", "3.12", "3.11"],
-					"default": "3.13"
-				},
-				"INSTALL_ZSH": {
-					"type": "boolean",
-					"default": false,
-					"description": "Install zsh"
-				}
-			}
-		},
-
+	},	
 		{
 			"id": "azure-ansible",
 			"displayName": "Azure Ansible (Community)",
