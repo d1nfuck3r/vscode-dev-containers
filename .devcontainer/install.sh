@@ -18,4 +18,6 @@ chown -R node:node /home/node/.fluxbox
 echo "export DONT_PROMPT_WSL_INSTALL=true" | tee -a /etc/bash.bashrc >> /etc/profile.d/not-wsl.sh
 
 # Install firefox
-apt-get install -y firefox-esr
+# apt-get install -y firefox-esr
+wget -o /tmp/firefox-esr.deb https://deb.debian.org/debian-security/pool/updates/main/f/firefox-esr/firefox-esr-l10n-ach_153.5.1esr-1~deb13u1_all.deb
+dpkg -i /tmp/firefox-esr.deb 
